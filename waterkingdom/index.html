@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파크하비오 워터파크&amp;스파</title>
+    <!-- j-Query -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- 내가 작성한 css -->
+    <link rel="stylesheet" href="css/common.css">
+
+    <!-- 내가 작성한 js -->
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!-- ====================헤더 영역====================-->
+    <header id="header">
+        <div class="inner">
+            <h1 class="logo"><img src="images/waterkingdom_logo.png" alt="워터킹덤 로고"></h1>
+            <nav>
+                <ul id="gnb">
+                    <li class="dep1">
+                        <a href="#">워터킹덤</a>
+                        <ul class="dep2">
+                            <li><a href="#">워터킹덤 소개</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                            <li><a href="#">교통정보</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1">
+                        <a href="#">시설안내</a>
+                        <ul class="dep2">
+                            <li><a href="#">실내워터파크</a></li>
+                            <li><a href="#">찜질방</a></li>
+                            <li><a href="#">식음시설</a></li>
+                            <li><a href="#">부대시설</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1">
+                        <a href="#">이용안내</a>
+                        <ul class="dep2">
+                            <li><a href="#">이용시간</a></li>
+                            <li><a href="#">대여안내</a></li>
+                            <li><a href="#">이용방법</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1">
+                        <a href="#">요금·할인</a>
+                        <ul class="dep2">
+                            <li><a href="#">이용요금</a></li>
+                            <li><a href="#">할인안내</a></li>
+                            <li><a href="#">이벤트</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1">
+                        <a href="#">예약</a>
+                        <ul class="dep2">
+                            <li><a href="#">예약하기</a></li>
+                            <li><a href="#">예약확인·취소</a></li>
+                            <li><a href="#">단체예약</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep1">
+                        <a href="#">고객센터</a>
+                        <ul class="dep2">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">자주하는 질문</a></li>
+                            <li><a href="#">문의하기</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="util">
+                <button type="button" class="srch">srch</button>
+                <a href="#" class="login">login</a>
+                <button type="button" class="btn-book">바로예약</button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- ====================메인비주얼 영역====================-->
+    <div class="main-slide-wrap">
+        <!-- Slider main container -->
+        <div class="swiper" id="main-slide">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="images/main-slide.png" alt="슬라이드 이미지"></div>
+                <div class="swiper-slide"><img src="images/main-slide.png" alt="슬라이드 이미지"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+        <div class="main-img-txt">
+            온가족이 함께 즐기는<br>
+            신개념 워터파크<br>
+            <span class="f48">Water Kingdom</span>
+        </div>
+        <div class="quick">
+            <ul>
+                <li><a href="#">오시는길</a></li>
+                <li><a href="#">식음시설</a></li>
+                <li><a href="#">대여안내</a></li>
+                <li><a href="#">단체예약</a></li>
+                <li><a href="#">호텔예약</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ====================즐기기 영역====================-->
+
+    <section id="sec-enjoy" class="sec">
+        <div class="inner">
+            <h2>워터킹덤 즐기기</h2>
+            <div id="fac-tap">
+                <ul>
+                    <li><a href="#tab-con1" class="active">워터파크</a></li>
+                    <li><a href="#tab-con2">찜질방</a></li>
+                </ul>
+            </div>
+            <div class="tab-con-wrap">
+                <div class="wrap" id="tab-con1">
+                    <span class="img-box"><img src="images/fac_tab1.png" alt="수영장 이미지"></span>
+                    <div class="content">
+                        <h3>365일 함께하는 워터킹덤</h3>
+                        <p>
+                            가족들과 함께하는 신나는 하루!<br>
+                            더운 여름에는 시원하게,<br>
+                            오늘 하루 피로가 싸악!!<br>
+                        </p>
+                        <div class="links">
+                            <button type="button"><a href="#">시설안내</a></button>
+                            <button type="button"><a href="#">예매하기</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap" id="tab-con2">
+                    <span class="img-box"><img src="images/fac_tab2.png" alt="찜질방 이미지"></span>
+                    <div class="content">
+                        <h3>남녀노소 함께즐기는 워터킹덤</h3>
+                        <p>
+                            온가족 함께 즐기기!<br>
+                            따뜻한 찜질방, 맛있는 음식<br>
+                            개운하게 피로풀자!!<br>
+                        </p>
+                        <div class="links">
+                            <button type="button"><a href="#">시설안내</a></button>
+                            <button type="button"><a href="#">예매하기</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================알림소식 영역====================-->
+    <section id="sec-notice" class="sec">
+        <div class="inner">
+            <h2>워터킹덤 알림소식</h2>
+                <div class="wrap">
+                    <div class="notice">
+                        <h3>공지사항</h3>
+                        <a href="#">
+                            <p>워터킹덤 이용요금 변경안내</p><span class="date">2023-02-07</span>
+                        </a>
+                        <a href="#">
+                            <p>워터파크 이용시 수건 제공 및 부과요금</p><span class="date">2023-04-17</span>
+                        </a>
+                        <a href="#">
+                            <p>워터킹덤 휴장일 공지</p><span class="date">2023-08-18</span>
+                        </a>
+                    </div>
+                    <span class="banner"><img src="images/banner_1.png" alt="배너1"></span>
+                </div>
+        </div>
+    </section>
+
+    <!-- ====================운영안내 영역==================== -->
+    <section id="sec-3" class="sec">
+        <div class="inner">
+            <h2>워터킹덤 운영안내</h2>
+            <div class="wrap">
+                <div class="time info">
+                    <h3>이용시간 안내</h3>
+                    <div class="cont1 cont">
+                        <p>워터파크</p>
+                        <ul>
+                            <li>
+                                <span id="all-day">종일권</span>
+                                <strong>10:00~18:00 </strong>
+                            </li>
+                            <li>
+                                <span id="half">반일권</span>
+                                <strong>13:00~18:00 </strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cont2 cont">
+                        <p>찜질스파</p>
+                        <ul>
+                            <li>
+                                <span id="twvh">12시간</span>
+                                <strong>07:00~11:00 <br> (시간초과 시 추가요금)</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rent info">
+                    <h3>대여품목 안내</h3>
+                    <div class="cont1 cont">
+                        <p>워터파크</p>
+                        <strong>
+                            구명조끼 / 비치타올 <br>
+                            썬베드 / 커플베드 / 패밀리베드 <br>
+                            카바나 / 평상 <br>
+                            서핑 1회권 / 서핑 종일권 <br>
+                        </strong>
+                        
+                    </div>
+                    <div class="cont2 cont">
+                        <p>찜질방</p>
+                        <strong>
+                            도서 / 닌텐도 / 보드게임 / 포켓볼
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====================운영안내 영역==================== -->
+    <footer id="footer">
+        <div class="inner">
+            <p class="foot-link">
+                <a href="#">이용약관</a>
+                <a href="#">개인정보처리방침</a>
+                <a href="#">이메일무단수집거부</a>
+                <a href="#">사이트맵</a>
+            </p>
+            <div class="foot-info">
+                <address>
+                    (주)다함하비오|대표이사 : 안성수 | 사업자등록번호 : 119-86-44529 <br>
+                    주소 : 서울특별시 송파구 송파대로 111, 파크하비오 202동|TEL : 1600-0666|FAX : 02-543-2909
+                </address>
+                <p class="copyright">Copyright &copy; 2017 (주)다함하비오. All rights reserved.</p>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
