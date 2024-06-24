@@ -19,7 +19,7 @@ address{font-style: normal;}
 .inner::after{content: ""; display: block;clear: both;}
 
 /* ==========================헤더영역========================== */
-#header{position:fixed;left: center;top: 0; z-index: 99999999;width: 100%; background-color: white;}
+#header{position:fixed;left: 0;top: 0; z-index: 99999999;width: 100%; background-color: white;}
 #header .logo{float: left; display: inline-block;}
 #header nav{float: left; display: inline-block;vertical-align: middle;}
 #header nav #gnb{font-size: 0; padding: 0 50px;}
@@ -93,14 +93,14 @@ address{font-style: normal;}
 #sec-enjoy .wrap .img-box{height: 360px;}
 #sec-enjoy .wrap .content{position: absolute; right: 0;top: 50%; transform: translateY(-50%);width: 437px; height: 204px;}
 #sec-enjoy .wrap .content p{margin: 20px 0;font-size: 20px;line-height: 1.5;}
-#sec-enjoy .wrap .content .links button{width: 120px;height: 50px; border-radius: 15px;font-size: 20px; font-weight: 500;}
-#sec-enjoy  #tab-con1 .links button{background-color: #F2E380;}
-#sec-enjoy  #tab-con1 .links button:hover{background-color: #F99B1C;}
-#sec-enjoy  #tab-con2 .links button{background-color: #F99B1C;}
-#sec-enjoy  #tab-con2 .links button:hover{background-color: #F2E380;}
-#sec-enjoy .wrap .content .links button:nth-child(2){margin-left: 10px;}
+#sec-enjoy .wrap .content .links .button{display: inline-block;width: 120px;height: 50px; border-radius: 15px;font-size: 20px; font-weight: 500;text-align: center;line-height: 50px;}
+#sec-enjoy  #tab-con1 .links .button{background-color: #F2E380;}
+#sec-enjoy  #tab-con1 .links .button:hover{background-color: #F99B1C;}
+#sec-enjoy  #tab-con2 .links .button{background-color: #F99B1C;}
+#sec-enjoy  #tab-con2 .links .button:hover{background-color: #F2E380;}
+#sec-enjoy .wrap .content .links .button:nth-child(2){margin-left: 10px;}
 
-#sec-enjoy .wrap .content .links button:hover{background-color: #F99B1C;}
+#sec-enjoy .wrap .content .links .button:hover{background-color: #F99B1C;}
 
 /* ==========================섹션 알림소식 영역========================== */
 #sec-notice .notice{display: inline-block; vertical-align: middle;width: 690px; height: 321px;padding: 60.5px 145px;box-sizing: border-box;border-radius: 30px; background-color: #F6F6F6;}
